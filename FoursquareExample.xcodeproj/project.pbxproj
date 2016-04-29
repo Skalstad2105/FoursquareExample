@@ -16,6 +16,9 @@
 		D3589CA71CD3AA64009B26AB /* FoursquareExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3589CA61CD3AA64009B26AB /* FoursquareExampleTests.swift */; };
 		D3589CB21CD3AA64009B26AB /* FoursquareExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3589CB11CD3AA64009B26AB /* FoursquareExampleUITests.swift */; };
 		D3589CC01CD3ADAF009B26AB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3589CBF1CD3ADAF009B26AB /* MapKit.framework */; };
+		D3589CC21CD3B549009B26AB /* CoffeeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3589CC11CD3B549009B26AB /* CoffeeAPI.swift */; };
+		D3589CC41CD3B674009B26AB /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3589CC31CD3B674009B26AB /* Venue.swift */; };
+		D3589CC61CD3B762009B26AB /* CofeeAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3589CC51CD3B762009B26AB /* CofeeAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		D3589CB11CD3AA64009B26AB /* FoursquareExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoursquareExampleUITests.swift; sourceTree = "<group>"; };
 		D3589CB31CD3AA64009B26AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3589CBF1CD3ADAF009B26AB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D3589CC11CD3B549009B26AB /* CoffeeAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoffeeAPI.swift; sourceTree = "<group>"; };
+		D3589CC31CD3B674009B26AB /* Venue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		D3589CC51CD3B762009B26AB /* CofeeAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CofeeAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,9 @@
 			isa = PBXGroup;
 			children = (
 				D3589C911CD3AA64009B26AB /* AppDelegate.swift */,
+				D3589CC31CD3B674009B26AB /* Venue.swift */,
+				D3589CC51CD3B762009B26AB /* CofeeAnnotation.swift */,
+				D3589CC11CD3B549009B26AB /* CoffeeAPI.swift */,
 				D3589C931CD3AA64009B26AB /* ViewController.swift */,
 				D3589C951CD3AA64009B26AB /* Main.storyboard */,
 				D3589C981CD3AA64009B26AB /* Assets.xcassets */,
@@ -336,6 +345,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3589C941CD3AA64009B26AB /* ViewController.swift in Sources */,
+				D3589CC61CD3B762009B26AB /* CofeeAnnotation.swift in Sources */,
+				D3589CC41CD3B674009B26AB /* Venue.swift in Sources */,
+				D3589CC21CD3B549009B26AB /* CoffeeAPI.swift in Sources */,
 				D3589C921CD3AA64009B26AB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

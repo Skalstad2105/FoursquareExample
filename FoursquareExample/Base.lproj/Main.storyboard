@@ -41,6 +41,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="iGf-yj-LLC" id="bML-XU-e6e">
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -88,7 +89,16 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" title="Foursquare Example" id="HXz-Ne-Qmz"/>
+                    <navigationItem key="navigationItem" title="Foursquare Example" id="HXz-Ne-Qmz">
+                        <barButtonItem key="rightBarButtonItem" image="Near Me-22" id="dTg-av-ApE">
+                            <connections>
+                                <action selector="nearbyLocation:" destination="BYZ-38-t0r" id="zJL-7d-qZ2"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="mapView" destination="9Cc-lA-dMZ" id="GCX-YX-EkT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -113,4 +123,7 @@
             <point key="canvasLocation" x="597" y="319.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Near Me-22" width="22" height="22"/>
+    </resources>
 </document>
